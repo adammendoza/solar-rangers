@@ -19,6 +19,8 @@
  * IMPORTANT  IMPORTANT  IMPORTANT  IMPORTANT  IMPORTANT  IMPORTANT  IMPORTANT
  */
 
+// NOTE: Threre's some other settings that overrides the db: setting that is looking for process.env.MONGODB
+
 module.exports = {
 
   db: process.env.MONGODB || 'mongodb://localhost:27017/solar-rangers',
