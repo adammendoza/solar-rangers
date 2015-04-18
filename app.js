@@ -117,6 +117,8 @@ app.get('/account/unlink/:provider', passportConf.isAuthenticated, userControlle
  * Business app routes.
  */
 app.get('/invest', investController.index);
+app.get('/invest-mn', investController.investMn);
+app.get('/invest-ca', investController.investCa);
 
 app.get('/develop', developController.index);
 
