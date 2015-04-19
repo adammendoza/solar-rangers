@@ -7,3 +7,9 @@ exports.index = function(req, res) {
     title: 'Develop'
   });
 };
+
+exports.developMn = function(req, res) {
+  res.render('develop-mn', {
+    title: 'Develop MN'
+  });
+};
